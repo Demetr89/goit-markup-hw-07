@@ -1042,11 +1042,11 @@ ul {
   background-origin: border-box;
   border-color: var(--brand-color-left);
 }
-.form-checkbox:focus + .modal__icon-chek {
+.form-checkbox:focus + .icon-chek {
   border-color: var(--brand-color-left);
 }
 
-.modal__icon-chek {
+.icon-chek {
   display: inline-block;
   width: 16px;
   height: 15px;
@@ -1068,7 +1068,7 @@ ul {
   color: rgba(33, 150, 243, 1);
 }
 
-.modal__form-btn {
+.form-btn {
   display: flex;
   align-items: center;
   justify-content: center;

@@ -950,7 +950,7 @@ ul {
   clip: rect(0 0 0 0);
 }
 
-.form-checkbox:checked + .modal__icon-chek {
+.modal__form-checkbox:checked + .modal__icon-chek {
   background-image: url(../img/icomoon/icon-check.svg);
   background-position: center;
   background-repeat: no-repeat;
@@ -958,11 +958,11 @@ ul {
   background-origin: border-box;
   border-color: var(--brand-color-left);
 }
-.form-checkbox:focus + .icon-chek {
+.modal__form-checkbox:focus + .modal__icon-chek {
   border-color: var(--brand-color-left);
 }
 
-.icon-chek {
+.modal__icon-chek {
   display: inline-block;
   width: 16px;
   height: 15px;
